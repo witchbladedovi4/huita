@@ -1,0 +1,73 @@
+/* Сброс и базовые стили */
+@font-face {
+    font-family: 'Font';
+    src: url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 500;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    font-family: 'Font';
+}
+
+main h1{
+    font-family: 'Font';
+    font-weight: 400;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.nav-menu a {
+    color:#333;
+    text-decoration: none;
+    font-family: 'Font';
+}
+
+.imgCenter {
+    text-align: center;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.text {
+    position: absolute;
+    
+}
+
+.section {
+    background-image: url('../img/underwater-hotel.jpg');
+}
+
